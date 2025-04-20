@@ -1,0 +1,49 @@
+.flex{
+    display:flex;
+}
+.justifycenter{
+    justify-content: center;
+}
+.aligncenter{
+    align-items: center;
+}
+.bggrey{
+    background-color: #1f1f1f;
+}
+.rounded{
+    border-radius: 5px;
+}
+/* For Webkit Browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 12px; /* width of the scrollbar */
+    height: 12px; /* height of the scrollbar (for horizontal scrolling) */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #2f2f2f; /* dark background for the scrollbar track */
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #444; /* dark thumb color */
+    border-radius: 10px;
+    border: 3px solid #2f2f2f; /* adds a border around the thumb to make it more distinct */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #666; /* lighter thumb color on hover */
+  }
+  
+  /* For Firefox */
+  scrollbar {
+    width: 12px;
+  }
+  
+  scrollbar-track {
+    background-color: #2f2f2f;
+   
+  }
+  
+  .invert{
+    filter: invert(1);
+  }
